@@ -1,1 +1,4 @@
 # splat-codes
+C言語でスプラトゥーンのチートコードを作成しました。 splatoon.hppをBullyWiiPlaza氏のコードコンプリケイション( https://github.com/BullyWiiPlaza/Wii-U-Code-Compilation )のimplementationフォルダにいれてmakeしてJgeckoでassembleしてgenerateしよう！
+
+BullyWiiPlaza氏のinternal_templates.hppには、ポインターコードを書き込む関数は存在しているがそれを使うと少しだけアドレスがずれます。また、ポインターコードから値を読み取る関数が存在しません。なので、修正＆値を読み取る関数を追加したinternal_templates.hppを作成しました。ポインターコードを扱う人はぜひ使ってください。(splatoon.hppはこのinternal_templates.hppが必須)
